@@ -13,8 +13,29 @@ nav{
 	grid-template-columns: 40px auto 40px 40px;
 }
 
-nav img{
+nav .insta{
 	width: 100px;
+	align-self: center;
+	text-align: center;
+	margin: auto;
+}
+
+.send{
+	width: 25px;
+	align-self: center;
+	text-align: center;
+	margin: auto;
+}
+
+.video{
+	width: 23px;
+	align-self: center;
+	text-align: center;
+	margin: auto;
+}
+
+nav .camera{
+	width: 25px;
 	align-self: center;
 	text-align: center;
 	margin: auto;

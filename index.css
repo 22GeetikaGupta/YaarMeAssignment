@@ -1,0 +1,52 @@
+body{
+	display: grid;
+	grid-template-rows: 8% 84% 8%;
+}
+nav{
+	height: auto;
+	/*padding-top: 7px;*/
+	/*padding-bottom: 5px;*/
+	width: 100%;
+	background-color: #ECF0F1;
+	display: grid;
+	grid-template-columns: 40px auto 40px 40px;
+}
+
+nav img{
+	width: 100px;
+	align-self: center;
+	text-align: center;
+	margin: auto;
+}
+nav i{
+	align-self: center;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav p{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.content{
+	text-align: center;
+	align-self: center;
+	vertical-align: middle;
+	color: red;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+	width: 100%;
+	background-color: #ECF0F1;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+footer i{
+	align-self: center;
+	text-align: center;
+	vertical-align: middle;
+}
